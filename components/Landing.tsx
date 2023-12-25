@@ -1,5 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function Landing() {
   return (
@@ -18,16 +19,24 @@ export default function Landing() {
           </p>
           <div className="flex justify-center space-x-4">
             <Button className="" variant="outline">
-              Twitter
+              <a
+                target="_blank"
+                href="https://twitter.com/analysoor"
+                rel="noopener noreferrer"
+              >
+                Twitter
+              </a>
             </Button>
             <Button className="" variant="outline">
-              Discord
+              <a target="_blank" href="#" rel="noopener noreferrer">
+                Discord
+              </a>
             </Button>
           </div>
         </div>
       </div>
       <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 pb-4">
-        <Button>Learn more</Button>
+        <Button disabled>Learn more</Button>
       </div>
     </div>
   );
