@@ -11,10 +11,17 @@ function Header() {
 
       <div className="flex items-center space-x-5">
         <Button className="">
-          <a href="/zero">Zero</a>
+          <a
+            target="_blank"
+            href="https://birdeye.so/token/93RC484oMK5T9H89rzT5qiAXKHGP9jscXfFfrihNbe57?chain=solana"
+          >
+            Zero
+          </a>
         </Button>
         <Button className="">
-          <a href="/one">One</a>
+          <a target="_blank" href="https://www.tensor.trade/trade/one">
+            One
+          </a>
         </Button>
       </div>
     </nav>
