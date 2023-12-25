@@ -28,7 +28,11 @@ export default function Landing() {
               </a>
             </Button>
             <Button className="" variant="outline">
-              <a target="_blank" href="#" rel="noopener noreferrer">
+              <a
+                target="_blank"
+                href="https://discord.gg/analysoor"
+                rel="noopener noreferrer"
+              >
                 Discord
               </a>
             </Button>
