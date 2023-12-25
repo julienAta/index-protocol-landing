@@ -11,11 +11,11 @@ export default function Landing() {
             Index Protocol
           </Badge>
           <h1 className="text-6xl font-bold mb-9">
-            Fair launch and liquidity bootstrapping on Solana.
+            Fair launch and liquidity bootstrapping on Solana
           </h1>
           <p className="text-xl mb-16">
             Leveraging the blockchain to create a fairer, more open financial
-            system for all.
+            system for all
           </p>
           <div className="flex justify-center space-x-4">
             <Button className="" variant="outline">
