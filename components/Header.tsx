@@ -2,12 +2,11 @@ import React from "react";
 import { Button } from "./ui/button";
 
 import { ModeToggle } from "./toggle-theme";
+import Image from "next/image";
 function Header() {
   return (
     <nav className="flex  justify-between p-5">
-      <a className="text-xl font-bold" href="/">
-        Analysoor
-      </a>
+      <Image alt="logo" src="/logo.jpg" width={50} height={50} />
 
       <div className="flex items-center space-x-5">
         <Button className="">
