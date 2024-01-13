@@ -33,7 +33,7 @@ export function Landinggg() {
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <a
-            href="https://twitter.com/sagamonkes"
+            href="https://twitter.com/sagamonkehq"
             target="_blank"
             rel="noopener noreferrer"
           >
