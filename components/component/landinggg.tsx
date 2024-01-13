@@ -23,7 +23,7 @@ export function Landinggg() {
     // Add more image URLs as needed
   ];
   return (
-    <div className="flex flex-col min-h-screen bg-white dark:bg-gray-900">
+    <div className="flex flex-col min-h-screen  bg-white dark:bg-gray-900">
       <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link className="flex items-center justify-center" href="#">
           <Image alt="Acme Inc" height="35" src="/aaa.jpg" width="35" />
@@ -41,7 +41,7 @@ export function Landinggg() {
           </a>
         </nav>
       </header>
-      <main className="flex-1">
+      <main className="flex-1 ">
         <section className="w-full py-12 md:py-24 lg:py-32 border-y">
           <div className="px-4 md:px-6 space-y-10 xl:space-y-16 h-[60vh]">
             <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16">
@@ -75,7 +75,7 @@ export function Landinggg() {
                 </div>
               </div>
             </div>
-            <div className=" flex w-full justify-center">
+            <div className=" flex w-[37vh] md:w-full justify-center">
               <Carousel
                 opts={{
                   align: "start",
@@ -476,24 +476,5 @@ export function Landinggg() {
         </nav>
       </footer> */}
     </div>
-  );
-}
-
-function MountainIcon(props: any) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
-    </svg>
   );
 }

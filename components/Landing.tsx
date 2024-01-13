@@ -5,9 +5,5 @@ import SparklesCore from "./sparkles";
 import { Landinggg } from "./component/landinggg";
 
 export default function Landing() {
-  return (
-    <div>
-      <Landinggg />
-    </div>
-  );
+  return <Landinggg />;
 }
