@@ -20,6 +20,9 @@ export function Landinggg() {
     "https://lh3.googleusercontent.com/4dD8w787HUeKHWhMuU-2HHcjQELTzdYxy0OL7aA-mpugExv-pFpnAFlL52-UcZgKzIUkE4g4bgxwaSWoWA_02I9vntLHLoNMhG0",
     "https://prod-image-cdn.tensor.trade/images/slug=83ffcbbf-6c54-420f-bcd8-d1eb5e7d358a/400x400/freeze=false/https%3A%2F%2Fshdw-drive.genesysgo.net%2F9DEPA5HdWF9aWYuwWB6cpnT7exK7Cpw7WvDwx8qe9GqT%2F7163.png",
     "https://prod-image-cdn.tensor.trade/images/slug=83ffcbbf-6c54-420f-bcd8-d1eb5e7d358a/400x400/freeze=false/https%3A%2F%2Fshdw-drive.genesysgo.net%2F9DEPA5HdWF9aWYuwWB6cpnT7exK7Cpw7WvDwx8qe9GqT%2F2841.png",
+    "https://prod-image-cdn.tensor.trade/images/slug=83ffcbbf-6c54-420f-bcd8-d1eb5e7d358a/400x400/freeze=false/https%3A%2F%2Fshdw-drive.genesysgo.net%2F9DEPA5HdWF9aWYuwWB6cpnT7exK7Cpw7WvDwx8qe9GqT%2F6855.png",
+    "https://prod-image-cdn.tensor.trade/images/slug=83ffcbbf-6c54-420f-bcd8-d1eb5e7d358a/400x400/freeze=false/https%3A%2F%2Fshdw-drive.genesysgo.net%2F9DEPA5HdWF9aWYuwWB6cpnT7exK7Cpw7WvDwx8qe9GqT%2F4809.png",
+    "https://prod-image-cdn.tensor.trade/images/slug=83ffcbbf-6c54-420f-bcd8-d1eb5e7d358a/400x400/freeze=false/https%3A%2F%2Fshdw-drive.genesysgo.net%2F9DEPA5HdWF9aWYuwWB6cpnT7exK7Cpw7WvDwx8qe9GqT%2F5105.png",
     // Add more image URLs as needed
   ];
   return (
@@ -29,11 +32,15 @@ export function Landinggg() {
           <Image alt="Acme Inc" height="35" src="/aaa.jpg" width="35" />
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://twitter.com/sagamonkes"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Button>Twitter</Button>
           </a>
           <a
-            href="https://discord.gg/jzVsyfn4aa"
+            href="https://discord.gg/sagadao"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -56,11 +63,8 @@ export function Landinggg() {
                   airdropped to Saga Genesis Token holders.
                 </p>
                 <div className="space-x-4">
-                  <Link
-                    className="inline-flex h-9 items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-                    href="#"
-                  >
-                    Learn more
+                  <Link href="#">
+                    <Button>Learn more</Button>
                   </Link>
 
                   <a
@@ -79,6 +83,7 @@ export function Landinggg() {
               <Carousel
                 opts={{
                   align: "start",
+                  loop: true,
                 }}
                 className="w-full max-w-[1300px]"
               >
