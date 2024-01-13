@@ -27,21 +27,18 @@ export function Landinggg() {
       <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link className="flex items-center justify-center" href="#">
           <Image alt="Acme Inc" height="35" src="/aaa.jpg" width="35" />
-          <span className="sr-only">Acme Inc</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
-          <Link
-            className="text-sm font-medium hover:underline underline-offset-4"
-            href="#"
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <Button>Twitter</Button>
+          </a>
+          <a
+            href="https://discord.gg/jzVsyfn4aa"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Twitter
-          </Link>
-          <Link
-            className="text-sm font-medium hover:underline underline-offset-4"
-            href="#"
-          >
-            Discord
-          </Link>
+            <Button>Discord</Button>
+          </a>
         </nav>
       </header>
       <main className="flex-1">
