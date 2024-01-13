@@ -18,11 +18,13 @@ import { Card, CardContent } from "../ui/card";
 export function Landinggg() {
   const imageUrls = [
     "https://prod-image-cdn.tensor.trade/images/slug=83ffcbbf-6c54-420f-bcd8-d1eb5e7d358a/400x400/freeze=false/https%3A%2F%2Fshdw-drive.genesysgo.net%2F9DEPA5HdWF9aWYuwWB6cpnT7exK7Cpw7WvDwx8qe9GqT%2F2893.png",
-    "https://prod-image-cdn.tensor.trade/images/slug=83ffcbbf-6c54-420f-bcd8-d1eb5e7d358a/400x400/freeze=false/https%3A%2F%2Fshdw-drive.genesysgo.net%2F9DEPA5HdWF9aWYuwWB6cpnT7exK7Cpw7WvDwx8qe9GqT%2F7163.png",
+    "https://prod-image-cdn.tensor.trade/images/slug=83ffcbbf-6c54-420f-bcd8-d1eb5e7d358a/400x400/freeze=false/https%3A%2F%2Fshdw-drive.genesysgo.net%2F9DEPA5HdWF9aWYuwWB6cpnT7exK7Cpw7WvDwx8qe9GqT%2F2841.png",
+
     "https://prod-image-cdn.tensor.trade/images/slug=83ffcbbf-6c54-420f-bcd8-d1eb5e7d358a/400x400/freeze=false/https%3A%2F%2Fshdw-drive.genesysgo.net%2F9DEPA5HdWF9aWYuwWB6cpnT7exK7Cpw7WvDwx8qe9GqT%2F529.png",
     "https://lh3.googleusercontent.com/4dD8w787HUeKHWhMuU-2HHcjQELTzdYxy0OL7aA-mpugExv-pFpnAFlL52-UcZgKzIUkE4g4bgxwaSWoWA_02I9vntLHLoNMhG0",
-    "https://prod-image-cdn.tensor.trade/images/slug=83ffcbbf-6c54-420f-bcd8-d1eb5e7d358a/400x400/freeze=false/https%3A%2F%2Fshdw-drive.genesysgo.net%2F9DEPA5HdWF9aWYuwWB6cpnT7exK7Cpw7WvDwx8qe9GqT%2F2841.png",
     "https://prod-image-cdn.tensor.trade/images/slug=83ffcbbf-6c54-420f-bcd8-d1eb5e7d358a/400x400/freeze=false/https%3A%2F%2Fshdw-drive.genesysgo.net%2F9DEPA5HdWF9aWYuwWB6cpnT7exK7Cpw7WvDwx8qe9GqT%2F6855.png",
+    "https://prod-image-cdn.tensor.trade/images/slug=83ffcbbf-6c54-420f-bcd8-d1eb5e7d358a/400x400/freeze=false/https%3A%2F%2Fshdw-drive.genesysgo.net%2F9DEPA5HdWF9aWYuwWB6cpnT7exK7Cpw7WvDwx8qe9GqT%2F7163.png",
+
     "https://prod-image-cdn.tensor.trade/images/slug=83ffcbbf-6c54-420f-bcd8-d1eb5e7d358a/400x400/freeze=false/https%3A%2F%2Fshdw-drive.genesysgo.net%2F9DEPA5HdWF9aWYuwWB6cpnT7exK7Cpw7WvDwx8qe9GqT%2F4809.png",
     "https://prod-image-cdn.tensor.trade/images/slug=83ffcbbf-6c54-420f-bcd8-d1eb5e7d358a/400x400/freeze=false/https%3A%2F%2Fshdw-drive.genesysgo.net%2F9DEPA5HdWF9aWYuwWB6cpnT7exK7Cpw7WvDwx8qe9GqT%2F5105.png",
 
