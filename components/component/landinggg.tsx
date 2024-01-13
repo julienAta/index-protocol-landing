@@ -45,7 +45,7 @@ export function Landinggg() {
             <Button>Twitter</Button>
           </a>
           <a
-            href="https://discord.gg/sagadao"
+            href="https://discord.com/invite/sagamonke"
             target="_blank"
             rel="noopener noreferrer"
           >
