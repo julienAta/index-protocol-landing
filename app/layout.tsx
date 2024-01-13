@@ -11,7 +11,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Saga Monkes DAO",
+  title: "Saga Monkes HQ",
   description: "only possible on solana",
 };
 
