@@ -27,7 +27,12 @@ const MonkePngTool: React.FC = () => {
       />
       {number && (
         <>
-          <Image src={imageUrl} alt="User specified content" />
+          <Image
+            width={500}
+            height={500}
+            src={imageUrl}
+            alt="User specified content"
+          />
           <br />
           <div className="flex justify-center mt-10">
             <a href={imageUrl} download={`Image-${number}.png`}>

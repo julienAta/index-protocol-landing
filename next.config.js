@@ -11,6 +11,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "prod-image-cdn.tensor.trade", // Replace this with your desired hostname
       },
+      {
+        protocol: "https",
+        hostname: "shdw-drive.genesysgo.net", // Replace this with your desired hostname
+      },
     ],
   },
 };
