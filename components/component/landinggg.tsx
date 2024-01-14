@@ -9,6 +9,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Card, CardContent } from "../ui/card";
+import ImageDisplayComponent from "../MonkePng";
 
 export function Landinggg() {
   const imageUrls = [
@@ -112,6 +113,14 @@ export function Landinggg() {
                 <CarouselNext />
               </Carousel>
             </div>
+          </div>
+        </section>
+        <section>
+          <div className="flex justify-center flex-wrap">
+            <div className="flex w-full justify-center p-5 text-3xl">
+              Check your monke without background
+            </div>
+            <ImageDisplayComponent />
           </div>
         </section>
         {/* <section className="w-full py-12 md:py-24 lg:py-32">
