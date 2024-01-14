@@ -24,7 +24,7 @@ export function Landing() {
                 </h1>
               </div>
               <div className="flex flex-col items-start space-y-4">
-                <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                <p className="mx-auto max-w-[700px] ml-8 text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                   The community-run discord for saga monkes. <br />
                   Ran by some random monkes, who wanted a home.
                 </p>
