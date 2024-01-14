@@ -3,27 +3,30 @@ import { Button } from "./ui/button";
 
 import { ModeToggle } from "./toggle-theme";
 import Image from "next/image";
+import Link from "next/link";
 function Header() {
   return (
-    <nav className="flex  justify-between p-5">
-      <Image alt="logo" src="/logo.jpg" width={50} height={50} />
-
-      <div className="flex items-center space-x-5">
-        <Button className="">
-          <a
-            target="_blank"
-            href="https://birdeye.so/token/93RC484oMK5T9H89rzT5qiAXKHGP9jscXfFfrihNbe57?chain=solana"
-          >
-            Zero
-          </a>
-        </Button>
-        <Button className="">
-          <a target="_blank" href="https://www.tensor.trade/trade/one">
-            One
-          </a>
-        </Button>
-      </div>
-    </nav>
+    <header className="px-4 lg:px-6 h-14 flex items-center bg-gray-900">
+      <Link className="flex items-center justify-center" href="#">
+        <Image alt="Acme Inc" height="35" src="/aaa.jpg" width="35" />
+      </Link>
+      <nav className="ml-auto flex gap-4 sm:gap-6">
+        <a
+          href="https://twitter.com/sagamonkehq"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button>Twitter</Button>
+        </a>
+        <a
+          href="https://discord.com/invite/sagamonke"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button>Discord</Button>
+        </a>
+      </nav>
+    </header>
   );
 }
 
