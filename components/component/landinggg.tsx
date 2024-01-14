@@ -60,8 +60,8 @@ export function Landinggg() {
               </div>
               <div className="flex flex-col items-start space-y-4">
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  Saga Monkes is an exclusive generative art collection
-                  airdropped to Saga Genesis Token holders.
+                  The unofficial community-run discord for saga monkes. <br />
+                  Run by some random monkeys, who remain unchained.
                 </p>
                 <div className="space-x-4">
                   <Link href="#">
