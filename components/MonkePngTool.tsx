@@ -23,7 +23,7 @@ const MonkePngTool: React.FC = () => {
         type="text"
         value={number}
         onChange={handleInputChange}
-        placeholder="Enter your number"
+        placeholder="monke number"
       />
       {number && (
         <>
