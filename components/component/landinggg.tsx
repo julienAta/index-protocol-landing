@@ -116,11 +116,25 @@ export function Landinggg() {
           </div>
         </section>
         <section>
-          <div className="flex justify-center flex-wrap">
-            <div className="flex w-full justify-center p-5 text-3xl">
-              Check your monke without background
-            </div>
-            <ImageDisplayComponent />
+          <div className="flex justify-around w-full flex-wrap p-10 ">
+            <p className="w-full text-4xl font-bold p-12 mb-14  flex justify-center">
+              Monke tools
+            </p>
+            <Card>
+              <div className="p-10">
+                <div className="flex w-full justify-center p-5 text-3xl min-w-20">
+                  Get your monke without background
+                </div>
+                <ImageDisplayComponent />
+              </div>
+            </Card>
+            <Card className=" max-h-44">
+              <div className="p-10  lg:max-h-6 ">
+                <div className="flex w-full justify-center p-5 text-3xl  ">
+                  More coming soon
+                </div>
+              </div>
+            </Card>
           </div>
         </section>
         {/* <section className="w-full py-12 md:py-24 lg:py-32">
