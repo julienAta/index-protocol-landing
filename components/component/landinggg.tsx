@@ -63,7 +63,7 @@ export function Landinggg() {
                   The unofficial community-run discord for saga monkes. <br />
                   Run by some random monkeys, who remain unchained.
                 </p>
-                <div className="space-x-4 ml-8">
+                <div className="space-x-4 ml-9">
                   <Link href="#">
                     <Button>Learn more</Button>
                   </Link>
