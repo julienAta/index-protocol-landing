@@ -2,8 +2,9 @@
 import React, { useState, ChangeEvent } from "react";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
+import Image from "next/image";
 
-const ImageDisplayComponent: React.FC = () => {
+const MonkePngTool: React.FC = () => {
   const [number, setNumber] = useState<string>("");
   const baseUrl =
     "https://shdw-drive.genesysgo.net/HCA6JCoGqbRnyoaZE4fg5ejzDq64jR7N6eH5MuTUd2pw/";
@@ -26,7 +27,7 @@ const ImageDisplayComponent: React.FC = () => {
       />
       {number && (
         <>
-          <img src={imageUrl} alt="User specified content" />
+          <Image src={imageUrl} alt="User specified content" />
           <br />
           <div className="flex justify-center mt-10">
             <a href={imageUrl} download={`Image-${number}.png`}>
@@ -39,4 +40,4 @@ const ImageDisplayComponent: React.FC = () => {
   );
 };
 
-export default ImageDisplayComponent;
+export default MonkePngTool;

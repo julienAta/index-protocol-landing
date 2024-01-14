@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 function Header() {
   return (
-    <header className="px-4 lg:px-6 h-14 flex items-center bg-gray-900">
+    <header className="p-8 lg:px-6 h-14 flex items-center bg-gray-900">
       <Link className="flex items-center justify-center" href="#">
         <Image alt="Acme Inc" height="35" src="/aaa.jpg" width="35" />
       </Link>
