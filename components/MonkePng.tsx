@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, ChangeEvent } from "react";
 import { Input } from "./ui/input";
+import { Button } from "./ui/button";
 
 const ImageDisplayComponent: React.FC = () => {
   const [number, setNumber] = useState<string>("");
@@ -27,9 +28,11 @@ const ImageDisplayComponent: React.FC = () => {
         <>
           <img src={imageUrl} alt="User specified content" />
           <br />
-          <a href={imageUrl} download={`Image-${number}.png`}>
-            <button>Download Image</button>
-          </a>
+          <div className="flex justify-center mt-10">
+            <a href={imageUrl} download={`Image-${number}.png`}>
+              <Button>Download Image</Button>
+            </a>
+          </div>
         </>
       )}
     </div>
