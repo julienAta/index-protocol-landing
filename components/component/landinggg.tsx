@@ -61,7 +61,7 @@ export function Landinggg() {
               <div className="flex flex-col items-start space-y-4">
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                   The unofficial community-run discord for saga monkes. <br />
-                  Run by some random monkeys, who remain unchained.
+                  Run by some random monkes, who remain unchained.
                 </p>
                 <div className="space-x-4 ml-9">
                   <Link href="#">
