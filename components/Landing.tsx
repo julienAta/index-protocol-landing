@@ -58,7 +58,7 @@ export function Landing() {
             <Card>
               <div className="p-10">
                 <div className="flex w-full justify-center p-5 text-3xl min-w-20">
-                  Get your monke without background
+                  Customize your monke&apos;s background
                 </div>
                 <MonkePngTool />
               </div>
